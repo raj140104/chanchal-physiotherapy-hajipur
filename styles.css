@@ -13,6 +13,14 @@ header {
     padding: 20px 30px;
 }
 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -28,6 +36,10 @@ nav ul li a {
     font-size: 18px;
 }
 
+.logo img {
+    height: 60px;
+}
+
 /* Responsive Design for Header on Phone */
 @media (max-width: 768px) {
     nav ul {
@@ -39,6 +51,8 @@ nav ul li a {
         font-size: 16px;
         /* Adjust font size for better mobile readability */
     }
+
+
 }
 
 @media (max-width: 480px) {
@@ -57,6 +71,8 @@ nav ul li a {
         padding: 15px 20px;
         /* Adjust padding for smaller screens */
     }
+
+
 }
 
 
