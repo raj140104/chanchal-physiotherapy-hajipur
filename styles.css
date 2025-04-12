@@ -71,14 +71,17 @@ nav ul li a {
 }
 
 .heroine h1 {
-    font-size: 40px;
+    font-size: 34px;
     margin-bottom: 10px;
     font-weight: bold;
+    text-align: left;
 }
+
 
 .heroine h2 {
     font-size: 24px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .cta-button {
