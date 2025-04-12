@@ -326,8 +326,8 @@ footer {
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 15px;
     }
 
     .service-card,
@@ -337,11 +337,11 @@ footer {
     }
 
     .heroine h1 {
-        font-size: 28px;
+        font-size: 22px;
     }
 
     .heroine h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -354,11 +354,11 @@ footer {
     }
 
     .heroine h1 {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .heroine h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .cta-button {
